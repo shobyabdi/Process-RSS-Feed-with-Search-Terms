@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/13/trunk/%20termbasedprocessor%20--username%20shobyabdi/RSS%20Parser/src/com/resumerobot/rssparser/server
+END
+PMF.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/3/trunk/%20termbasedprocessor%20--username%20shobyabdi/RSS%20Parser/src/com/resumerobot/rssparser/server/PMF.java
+END
+FeedItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/4/trunk/%20termbasedprocessor%20--username%20shobyabdi/RSS%20Parser/src/com/resumerobot/rssparser/server/FeedItem.java
+END
+Feed.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/3/trunk/%20termbasedprocessor%20--username%20shobyabdi/RSS%20Parser/src/com/resumerobot/rssparser/server/Feed.java
+END
+XmlReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/5/trunk/%20termbasedprocessor%20--username%20shobyabdi/RSS%20Parser/src/com/resumerobot/rssparser/server/XmlReader.java
+END
+ServerConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/10/trunk/%20termbasedprocessor%20--username%20shobyabdi/RSS%20Parser/src/com/resumerobot/rssparser/server/ServerConstants.java
+END
+GeoSpreadsheetServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/!svn/ver/12/trunk/%20termbasedprocessor%20--username%20shobyabdi/RSS%20Parser/src/com/resumerobot/rssparser/server/GeoSpreadsheetServlet.java
+END
+Location.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/12/trunk/%20termbasedprocessor%20--username%20shobyabdi/RSS%20Parser/src/com/resumerobot/rssparser/server/Location.java
+END
+ServerServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/13/trunk/%20termbasedprocessor%20--username%20shobyabdi/RSS%20Parser/src/com/resumerobot/rssparser/server/ServerServiceImpl.java
+END
+ProcessRSSFeed.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/10/trunk/%20termbasedprocessor%20--username%20shobyabdi/RSS%20Parser/src/com/resumerobot/rssparser/server/ProcessRSSFeed.java
+END
+UserRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/9/trunk/%20termbasedprocessor%20--username%20shobyabdi/RSS%20Parser/src/com/resumerobot/rssparser/server/UserRecord.java
+END
+OutgoingMail.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/10/trunk/%20termbasedprocessor%20--username%20shobyabdi/RSS%20Parser/src/com/resumerobot/rssparser/server/OutgoingMail.java
+END

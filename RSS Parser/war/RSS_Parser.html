@@ -1,0 +1,64 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- The HTML 4.01 Transitional DOCTYPE declaration-->
+<!-- above set at the top of the file will set     -->
+<!-- the browser's rendering engine into           -->
+<!-- "Quirks Mode". Replacing this declaration     -->
+<!-- with a "Standards Mode" doctype is supported, -->
+<!-- but may lead to some differences in layout.   -->
+
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+    <!--                                                               -->
+    <!-- Consider inlining CSS to reduce the number of requested files -->
+    <!--                                                               -->
+    <link type="text/css" rel="stylesheet" href="RSS_Parser.css">
+
+    <!--                                           -->
+    <!-- Any title is fine                         -->
+    <!--                                           -->
+    <title>Find Jobs By Location and Search Terms</title>
+    
+    <!--                                           -->
+    <!-- This script loads your compiled module.   -->
+    <!-- If you add any GWT meta tags, they must   -->
+    <!-- be added before this line.                -->
+    <!--                                           -->
+    <script type="text/javascript" language="javascript" src="rss_parser/rss_parser.nocache.js"></script>
+    <script src="http://maps.google.com/maps?file=api&v=2&key=ABQIAAAAGcod072HXSHOba3XeTLbgBSVsgGfyiBDyFUzq8A5DQsM-gcSpRSAZ7vq8ZV__vTjmjqTxoUmdlOp9g" type="text/javascript"></script>
+    <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+  </head>
+
+  <!--                                           -->
+  <!-- The body can have arbitrary html, or      -->
+  <!-- you can leave the body empty if you want  -->
+  <!-- to create a completely dynamic UI.        -->
+  <!--                                           -->
+  <body>
+
+    <!-- OPTIONAL: include this if you want history support -->
+    <iframe src="javascript:''" id="__gwt_historyFrame" tabIndex='-1' style="position:absolute;width:0;height:0;border:0"></iframe>
+
+    <h1>Find Jobs By Location and Search Terms</h1>
+    <center><div id="userContainer"></div>
+    <div id="mapsTutorial"></div></center>
+    <table align="center">
+      <tr>
+        <td style="font-weight:bold;">Please Enter Your Location</td>
+        <td id="locationFieldContainer"></td>        
+      </tr>
+      <tr>
+        <td style="font-weight:bold;">Please Enter Search Terms (Comma Seperated)</td>
+        <td id="searchTermContainer"></td>
+      </tr>
+      <tr>
+      	<td id="processRSSContainer"></td>
+      	<td id="appEngineLogoContainer"></td>
+      </tr>
+    </table>
+    <br/><br/>
+    <div id="responseContainer">
+    </div>
+  </body>
+</html>

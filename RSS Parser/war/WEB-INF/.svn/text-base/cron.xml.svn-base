@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cronentries>
+  <cron>
+    <url>/RSS_Parser.html</url>
+    <description>Mail out </description>
+    <schedule>every day 00:00</schedule>
+    <timezone>America/Chicago</timezone>
+  </cron>
+</cronentries>

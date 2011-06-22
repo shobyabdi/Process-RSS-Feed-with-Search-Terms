@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="com.google.appengine.eclipse.core.GAE_CONTAINER/App Engine (2)"/>
+	<classpathentry kind="con" path="com.google.gwt.eclipse.core.GWT_CONTAINER/GWT (1)"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/home/shoby/Desktop/gwt-maps.jar"/>
+	<classpathentry kind="lib" path="/home/shoby/Desktop/untitled folder/gdata-client-1.0.jar"/>
+	<classpathentry kind="lib" path="/home/shoby/Desktop/untitled folder/gdata-client-meta-1.0.jar"/>
+	<classpathentry kind="lib" path="/home/shoby/Desktop/untitled folder/gdata-core-1.0.jar"/>
+	<classpathentry kind="lib" path="/home/shoby/Desktop/untitled folder/gdata-docs-3.0.jar"/>
+	<classpathentry kind="lib" path="/home/shoby/Desktop/untitled folder/gdata-docs-meta-3.0.jar"/>
+	<classpathentry kind="lib" path="/home/shoby/Desktop/untitled folder/gdata-spreadsheet-3.0.jar"/>
+	<classpathentry kind="lib" path="/home/shoby/Desktop/untitled folder/gdata-spreadsheet-meta-3.0.jar"/>
+	<classpathentry kind="lib" path="/home/shoby/Desktop/google-collect-1.0-rc3.jar"/>
+	<classpathentry kind="output" path="war/WEB-INF/classes"/>
+</classpath>

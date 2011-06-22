@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app
+    PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+    "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+    <welcome-file-list>
+        <welcome-file>userService.jsp</welcome-file>
+    </welcome-file-list>
+
+  <!-- Servlets -->
+  <servlet>
+    <servlet-name>serverServlet</servlet-name>
+    <servlet-class>com.resumerobot.rssparser.server.ServerServiceImpl</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>serverServlet</servlet-name>
+    <url-pattern>/rss_parser/server</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>geoServlet</servlet-name>
+    <servlet-class>com.resumerobot.rssparser.server.GeoSpreadsheetServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>geoServlet</servlet-name>
+    <url-pattern>/getgeodata</url-pattern>
+  </servlet-mapping>
+  
+  <!-- Default page to serve -->
+    <security-constraint>
+        <web-resource-collection>
+            <url-pattern>/admin/*</url-pattern>
+        </web-resource-collection>
+        <auth-constraint>
+            <role-name>admin</role-name>
+        </auth-constraint>
+    </security-constraint>
+</web-app>
